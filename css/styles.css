@@ -59,6 +59,17 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+small {
+  margin: 1% 10%;
+    display: inline-flex;
+    font-size: larger!important;
+}
+
+#logo {
+  max-width: 40%;
+  max-height: auto;
+}
+
 body {
   margin: 0;
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10260,7 +10271,7 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
+    font-size: 4rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
@@ -10273,6 +10284,7 @@ body {
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  min-height:500px;
 }
 .about-section p {
   margin-bottom: 5rem;
